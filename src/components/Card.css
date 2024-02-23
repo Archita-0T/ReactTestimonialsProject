@@ -1,0 +1,118 @@
+.mainBox{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 46vh;
+}
+.image{
+    aspect-ratio: 1/1;
+    border-radius: 9999px;
+    width: 135px;
+    height: 135px;
+    z-index: 25;
+}
+.box{
+    position:absolute;
+    top: -7rem;
+    z-index: 10;
+    margin-left: auto;
+    margin-right: auto;
+}
+.shadow{
+    position:absolute;
+    top: -6px;
+    z-index: -10;
+    border-radius: 9999px;
+    width: 135px;
+    height: 135px;
+    background-color: #8b5cf6;
+    left: 10px;
+
+}
+.text{
+    text-align: center;
+    margin-top: 0px;
+}
+.textStyle{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 0.05em;
+}
+.job{
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    color: #C4B5FD;
+    margin-top: -24px;
+}
+.icon{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    color: #A78BFA;
+}
+.para{
+    text-align: center;
+    margin-top: -9px;
+    color: #718096;
+}
+.full{
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 1.4rem;
+    gap: 0.7rem;
+    
+}
+.half{
+    cursor: pointer;
+    
+}
+.half:hover{
+    color: #7f3eb9;
+}
+.last{
+    background-color: #8b3ffcc0;
+    transition: all;
+    transition-duration: 200ms;
+    cursor: pointer;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-radius: 0.375rem;
+    color: white;
+    font-size: 1.125rem;
+    width: 200px;
+    margin: 5px auto;
+
+}
+.last:hover{
+    background-color: #7c3aed;
+}
+button{
+    border: none;
+    background-color: transparent;
+    
+}
+.whiteBox{
+    width: 50vw;
+    
+    min-width: 700px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.375rem;
+    margin: 40px auto;
+    padding: 2.5rem;
+    transition: all;
+    transition-duration: 700ms;
+}
+.whiteBox:hover{
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,00.04);
+}
+.lastButton{
+    margin-top: 8px;
+}
